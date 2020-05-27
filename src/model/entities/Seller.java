@@ -58,7 +58,7 @@ public class Seller implements Serializable {
 	}
 
 	public void setBirthDate(java.sql.Date birthDate) {
-		this.birthDate = (Date) birthDate;
+		this.birthDate =  birthDate;
 	}
 
 	public Double getBaseSalary() {
